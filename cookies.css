@@ -1,0 +1,87 @@
+html{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+
+	}
+h1{
+	font-size: 80px;
+	margin: 0px;
+	background-color: rgba(0, 153, 255,0.5);
+	margin:20px;
+}
+
+.background  img{
+	background-size: cover;
+	opacity: 0.4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:100%;
+	width: 100%;
+	z-index: -1;
+}
+
+
+
+.chipsahoy {
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		opacity: 0.9;
+		float: left;
+		text-align: center;
+		margin-left: 80px;
+		transition: 100ms;
+}
+.chipsahoy:hover img{
+	display: none;
+}
+.chipsahoy:hover{
+	background-image: url(img/whole_cookie.png);
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	marign-top:50px;
+	
+}
+
+
+
+.fritos {
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		
+		float: left;
+		margin-left: 240px;
+		}
+.fritos:hover img{
+	display: none;
+}
+
+.fritos:hover{
+	background-image: url(img/Corn-Chips.png);
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+}
+.ruffles{
+		background-size: cover;
+		height: 200px;
+		width: 200px;
+		margin-left: 100px;
+		
+		float: left;
+		
+		transition: 100ms;
+	}
+.ruffles:hover img{
+	display: none;
+}
+.ruffles:hover{
+	background-image: url(img/ruffle_chip.png) ;
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	
+}
